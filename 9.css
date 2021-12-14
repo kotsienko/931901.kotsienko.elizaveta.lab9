@@ -1,0 +1,50 @@
+html
+{
+    font-family: Helvetica;
+}
+
+main
+{
+    border: 3.5px solid #6dacd5;
+    width: 290px;
+    padding: 10px;
+    height: 280px;
+}
+
+.inp
+{
+    width: 270px;
+    height: 35px;
+    font-size: 26px;
+    color: gray;
+    text-align: right;
+    margin-bottom: 5px;
+
+}
+
+table{
+    border-spacing: 7px;
+}
+
+td
+{
+    width:48px; 
+    height:48px;
+    border: solid 1px grey;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#dfdfdf));
+    text-align: center;
+}
+
+td:active
+{
+    border:1px solid blue;
+}
+
+#buffer
+{
+    position:absolute;
+    top:27.5px;
+    color: black;
+    left: 31px;
+    font-size: 26px;
+}
